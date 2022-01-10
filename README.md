@@ -1,6 +1,6 @@
 # Overview
 
-<TODO: complete this with an overview of your project>
+In this project a CICD-Pipeline was set up with Azure Pipelines. 
 
 ## Project Plan
 <TODO: Project Plan
@@ -16,6 +16,9 @@
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
 * Project running on Azure App Service
+
+![github_repo_in_azurecloudshell](https://user-images.githubusercontent.com/92888738/148787588-0244ee46-a4ba-4b33-8e13-23d14a5a5276.PNG)
+
 
 * Project cloned into Azure Cloud Shell
 
