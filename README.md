@@ -25,7 +25,7 @@ In this project a CICD-Pipeline was set up with Azure Pipelines.
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
-![maketest](https://user-images.githubusercontent.com/92888738/148788074-d21dbfed-e810-413c-89ed-2a32c150c904.PNG)
+![maketest](https://user-images.githubusercontent.com/92888738/148789121-e45e2bad-b0a8-4623-81a2-44ad33578b5f.PNG)
 
 * Output of a test run
 
@@ -41,6 +41,8 @@ udacity@Azure:~$ ./make_predict_azure_app.sh
 Port: 443
 {"prediction":[20.35373177134412]}
 ```
+
+![make_prediction](https://user-images.githubusercontent.com/92888738/148789414-d1dc4941-d95a-4cf5-8437-365cc6064a50.PNG)
 
 * Output of streamed log files from deployed application
 
