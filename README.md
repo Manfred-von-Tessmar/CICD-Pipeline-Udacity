@@ -17,12 +17,15 @@ In this project a CICD-Pipeline was set up with Azure Pipelines.
 
 * Project running on Azure App Service
 
-![github_repo_in_azurecloudshell](https://user-images.githubusercontent.com/92888738/148787588-0244ee46-a4ba-4b33-8e13-23d14a5a5276.PNG)
-
+![azure_app_service](https://user-images.githubusercontent.com/92888738/148787976-75ef3494-bafe-4309-8fd6-18a5d4eabb8f.PNG)
 
 * Project cloned into Azure Cloud Shell
 
+![github_repo_in_azurecloudshell](https://user-images.githubusercontent.com/92888738/148787588-0244ee46-a4ba-4b33-8e13-23d14a5a5276.PNG)
+
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
+
+![maketest](https://user-images.githubusercontent.com/92888738/148788074-d21dbfed-e810-413c-89ed-2a32c150c904.PNG)
 
 * Output of a test run
 
