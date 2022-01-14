@@ -29,6 +29,8 @@ In this project a CICD-Pipeline was set up with Azure Pipelines.
 
 * Output of a test run
 
+ 
+
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
 ![implement_pipelines_to_azure](https://user-images.githubusercontent.com/92888738/149521983-0c01a940-7820-48e5-814d-cd832dd89096.PNG)
