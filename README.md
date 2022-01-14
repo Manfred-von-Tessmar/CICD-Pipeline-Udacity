@@ -8,7 +8,12 @@ In this project the plan was to set up a CI/CD pipeline with Azure Pipelines. Th
 <TODO: Project Plan
 
 * A link to a Trello board for the project
+
+(please see my comment in the overview).
+
 * A link to a spreadsheet that includes the original and final project plan>
+
+![spreadsheet](https://user-images.githubusercontent.com/92888738/149537680-86069282-f170-40c5-9416-27d050382cc0.PNG)
 
 ## Instructions
 
