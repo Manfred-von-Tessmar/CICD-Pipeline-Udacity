@@ -31,7 +31,11 @@ In this project a CICD-Pipeline was set up with Azure Pipelines.
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
+![implement_pipelines_to_azure](https://user-images.githubusercontent.com/92888738/149521983-0c01a940-7820-48e5-814d-cd832dd89096.PNG)
+
 * Running Azure App Service from Azure Pipelines automatic deployment
+
+![Azure_pipelines_build](https://user-images.githubusercontent.com/92888738/149522029-1da71e1b-5248-4b85-935c-609b4830f10d.PNG)
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:
