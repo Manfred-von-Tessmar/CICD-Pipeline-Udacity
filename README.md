@@ -9,7 +9,7 @@ In this project the plan was to set up a CI/CD pipeline with Azure Pipelines. Th
 
 * A link to a Trello board for the project
 
-(please see my comment in the overview).
+ (please see my comment in the overview).
 
 * A link to a spreadsheet that includes the original and final project plan>
 
@@ -19,6 +19,8 @@ In this project the plan was to set up a CI/CD pipeline with Azure Pipelines. Th
 
 <TODO:  
 * Architectural Diagram (Shows how key parts of the system work)>
+
+![image](https://user-images.githubusercontent.com/92888738/149540497-7f13e05d-9cf5-4e68-b70c-0a17a0f8e093.png)
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
