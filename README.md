@@ -45,11 +45,15 @@ In this project the plan was to set up a CI/CD pipeline with Azure Pipelines. Th
 
 11. After performing code testing locally and via Github Actions, it is now the time to set up Continuous Deployment using azure technologies. First of all make sure, that you have the right code base. In this project the project scaffold was replaced by the code of Noah Gift (you can download the code from here: https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/tree/master/C2-AgileDevelopmentwithAzure/project/starter_files.
 
+12. Make sure that your local code (in azure cloud shell) is sychronized with your github repo.
+13. set a an azure app service from your azure cloud shell (make sure that your working directory is your project directory) (see documentation for setting up a webapp: https://docs.microsoft.com/de-de/cli/azure/webapp?view=azure-cli-latest). You can find the URL of your Web-App in your Azure portal.
+
 * Project running on Azure App Service
 
 ![azure_app_service](https://user-images.githubusercontent.com/92888738/148787976-75ef3494-bafe-4309-8fd6-18a5d4eabb8f.PNG)
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
+
 
 ![implement_pipelines_to_azure](https://user-images.githubusercontent.com/92888738/149521983-0c01a940-7820-48e5-814d-cd832dd89096.PNG)
 
