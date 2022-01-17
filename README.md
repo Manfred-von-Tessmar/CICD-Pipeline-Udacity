@@ -30,22 +30,24 @@ In this project the plan was to set up a CI/CD pipeline with Azure Pipelines. Th
 4. create ssh keys in an azure cloud shell environment with ssh-keygen -t rsa
 5. upload the keys to your Github account (do the following steps: cd ./ssh; ls; cat your-sshkey; copy the key, add it to your Github ssh-keys)
 6. clone your Github repository via "git clone the-ssh-url-link-to-your-repository" into your azure cloud shell environment
+
+![github_repo_in_azurecloudshell](https://user-images.githubusercontent.com/92888738/148787588-0244ee46-a4ba-4b33-8e13-23d14a5a5276.PNG)
+
 7. set the working directory in your azure cloud shell to the directory of your code (the directory of your cloned Github repo)
 8. create a virtual environment (execute "python3 -m venv ~/.myrepo" and then "source ~/.myrepo/bin/activate" in your cloud shell)
-9. run your makefile function via "make all"
-10. 
+9. run your makefile functions via "make all" (The "make all" command installs your requirements and all dependencies, lints and tests your code. This step is necessary to make sure, that your code is in a workable state. It tells you if your code is executable in your local working environment. In this project this step was done with the project scaffold (testing code). 
+
+10. If you want to go a step further, you can configure your project to test your project upon change events occur in GitHub. This is a necessary step to perform Continuous Integration remotely. You can use Github actions which is a Software-as-a-Service build server to test your code remotely. Therefore you can configure 
+
+![maketest](https://user-images.githubusercontent.com/92888738/148789121-e45e2bad-b0a8-4623-81a2-44ad33578b5f.PNG)
+
+10. If you want to go a step further, you can configure your project so that your project is tested upon change events occur in GitHub. This is a necessary step to perform Continuous Integration remotely. You can use Github actions which is a kind of Software-as-a-Service build server. To tell the server what to do you need a build service template (templates are available in Github Actions) and configuration files (your code + requirements.txt, makefile, test file)
+
 
 * Project running on Azure App Service
 
 ![azure_app_service](https://user-images.githubusercontent.com/92888738/148787976-75ef3494-bafe-4309-8fd6-18a5d4eabb8f.PNG)
 
-* Project cloned into Azure Cloud Shell
-
-![github_repo_in_azurecloudshell](https://user-images.githubusercontent.com/92888738/148787588-0244ee46-a4ba-4b33-8e13-23d14a5a5276.PNG)
-
-* Passing tests that are displayed after running the `make all` command from the `Makefile`
-
-![maketest](https://user-images.githubusercontent.com/92888738/148789121-e45e2bad-b0a8-4623-81a2-44ad33578b5f.PNG)
 
 * Output of a test run
 
