@@ -24,6 +24,17 @@ In this project the plan was to set up a CI/CD pipeline with Azure Pipelines. Th
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
+1. create a repository and the code in a source controll system like Github
+2. make sure that your repository has a Makefile, a requirements.txt and a script and testing file before doing steps 5-x.
+3. make sure that your makefile contains install, linting and testing functions
+4. create ssh keys in an azure cloud shell environment with ssh-keygen -t rsa
+5. upload the keys to your Github account (do the following steps: cd ./ssh; ls; cat your-sshkey; copy the key, add it to your Github ssh-keys)
+6. clone your Github repository via "git clone the-ssh-url-link-to-your-repository" into your azure cloud shell environment
+7. set the working directory in your azure cloud shell to the directory of your code (the directory of your cloned Github repo)
+8. create a virtual environment (execute "python3 -m venv ~/.myrepo" and then "source ~/.myrepo/bin/activate" in your cloud shell)
+9. run your makefile function via "make all"
+10. 
+
 * Project running on Azure App Service
 
 ![azure_app_service](https://user-images.githubusercontent.com/92888738/148787976-75ef3494-bafe-4309-8fd6-18a5d4eabb8f.PNG)
