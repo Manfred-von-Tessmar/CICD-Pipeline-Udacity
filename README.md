@@ -50,10 +50,11 @@ In this project the plan was to set up a CI/CD pipeline with Azure Pipelines. Th
 
 ![azure_app_service](https://user-images.githubusercontent.com/92888738/148787976-75ef3494-bafe-4309-8fd6-18a5d4eabb8f.PNG)
 
-14. It is now the time for Continous Deployment of your project to your azure web applicaton. Therefore we want to use azure pipelines. What you need to do is creating a new project in Azure DevOps. To tell Azure Pipelines where the code is, you need to connect your Github Repo to Azure Pipelines (see documentation: https://docs.microsoft.com/de-de/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops&WT.mc_id=udacity_learn-wwl). In this case we want to use a CI/CD azure pipeline to provide the a python-web-app in Azure app service for Linux. You can see the build status of your build service in Azure pipelines.
+14. It is now the time for Continous Deployment of your project to your azure web applicaton. Therefore we want to use azure pipelines. What you need to do is creating a new project in Azure DevOps. To tell Azure Pipelines where the code is, you need to connect your Github Repo to Azure Pipelines (see documentation: https://docs.microsoft.com/de-de/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops&WT.mc_id=udacity_learn-wwl). In this case we want to use a CI/CD azure pipeline to provide the a python-web-app in Azure app service for Linux. When your Github Repository connection to Azure Pipelines was successfull and you have chosen the right build workflow in Azure Pipelines, a yml file named is created in your github repo. Your azure pipeline is ready for the first build.
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
+You can see the build status of your build service in Azure pipelines.
 
 ![implement_pipelines_to_azure](https://user-images.githubusercontent.com/92888738/149521983-0c01a940-7820-48e5-814d-cd832dd89096.PNG)
 
