@@ -64,18 +64,16 @@ You can see the build status of your build service in Azure pipelines.
 
 ![make_prediction](https://user-images.githubusercontent.com/92888738/148789414-d1dc4941-d95a-4cf5-8437-365cc6064a50.PNG)
 
-17. The log entries for your web application can be checked with the following URL: your-web-app.scm.azurewebsites.net/
-
-* Output of streamed log files from deployed application
+17. The log entries for your web application can be checked with the following URL: your-web-app.scm.azurewebsites.net/ape/logs/docker
 
 ![logs](https://user-images.githubusercontent.com/92888738/149523550-d054599b-955f-4129-95f9-26a1628b846b.PNG)
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+This project with its content and with the links to microsoft learning sites was a well balanced mixture of theory and practical parts and it led to much increased understanding for the CI/CD topic. I have no idea for enhancements. I Liked the content and how it was provided. Maybe in the final project on enhancement could be to more focus on the understanding for the code (maybe the student can write his own code, or should change the code so that the code is executable or what else). I didn`t like creating a trelloboard or a spreadsheet for the planning since it is a daily business and it needs time (I have a family with two children and I do the nanodegree program after work). So I would recommend omitting the trello board and the spreadsheet. The most understanding how a CI/CD pipeline worked, came from the content and the exercises itself. 
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
+
 
 
