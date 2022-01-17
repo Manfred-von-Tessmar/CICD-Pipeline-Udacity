@@ -41,17 +41,13 @@ In this project the plan was to set up a CI/CD pipeline with Azure Pipelines. Th
 
 ![maketest](https://user-images.githubusercontent.com/92888738/148789121-e45e2bad-b0a8-4623-81a2-44ad33578b5f.PNG)
 
-10. If you want to go a step further, you can configure your project so that your project is tested upon change events occur in GitHub. This is a necessary step to perform Continuous Integration remotely. You can use Github actions which is a kind of Software-as-a-Service build server. To tell the server what to do you need a build service template (templates are available in Github Actions) and configuration files (your code + requirements.txt, makefile, test file)
+10. If you want to go a step further, you can configure your project so that your project is tested upon change events occur in GitHub. This is a necessary step to perform Continuous Integration remotely. You can use Github actions which is a kind of Software-as-a-Service build server. To tell the server what to do you need a build service template (you can choose a workflow template in Github Actions) and configuration files (e.g. requirements.txt, makefile, test file). In this project this step was done with the project scaffold (testing code). If a build job was successful can be seen in the github 
 
+![github_actions](https://user-images.githubusercontent.com/92888738/149525189-3fabe4e8-bddf-4314-bab2-2a007e3ca8a8.PNG)
 
 * Project running on Azure App Service
 
 ![azure_app_service](https://user-images.githubusercontent.com/92888738/148787976-75ef3494-bafe-4309-8fd6-18a5d4eabb8f.PNG)
-
-
-* Output of a test run
-
- ![github_actions](https://user-images.githubusercontent.com/92888738/149525189-3fabe4e8-bddf-4314-bab2-2a007e3ca8a8.PNG)
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
