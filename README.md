@@ -52,26 +52,20 @@ In this project the plan was to set up a CI/CD pipeline with Azure Pipelines. Th
 
 14. It is now the time for Continous Deployment of your project to your azure web applicaton. Therefore we want to use azure pipelines. What you need to do is creating a new project in Azure DevOps. To tell Azure Pipelines where the code is, you need to connect your Github Repo to Azure Pipelines (see documentation: https://docs.microsoft.com/de-de/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops&WT.mc_id=udacity_learn-wwl). In this case we want to use a CI/CD azure pipeline to provide the a python-web-app in Azure app service for Linux. When your Github Repository connection to Azure Pipelines was successfull and you have chosen the right build workflow in Azure Pipelines, a yml file named is created in your github repo. Your azure pipeline is ready for the first build.
 
-* Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
-
 You can see the build status of your build service in Azure pipelines.
 
 ![implement_pipelines_to_azure](https://user-images.githubusercontent.com/92888738/149521983-0c01a940-7820-48e5-814d-cd832dd89096.PNG)
 
-* Running Azure App Service from Azure Pipelines automatic deployment
+
+15. You can see the build status of your build service in Azure pipelines.
 
 ![Azure_pipelines_build](https://user-images.githubusercontent.com/92888738/149522029-1da71e1b-5248-4b85-935c-609b4830f10d.PNG)
 
-* Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
-The output should look similar to this:
-
-```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
-```
+16. When your App is running you can do predictions from your Azure Cloud shell environment
 
 ![make_prediction](https://user-images.githubusercontent.com/92888738/148789414-d1dc4941-d95a-4cf5-8437-365cc6064a50.PNG)
+
+17. The log entries for your web application can be checked with the following URL: your-web-app.scm
 
 * Output of streamed log files from deployed application
 
