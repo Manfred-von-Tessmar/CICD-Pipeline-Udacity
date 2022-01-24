@@ -1,6 +1,6 @@
 # Overview
 
-In this project the plan was to set up a CI/CD pipeline with Azure Pipelines. The top premise during development process is having your code always in a testable state. Hence an agile project management was setup with using state of the art techniques to implement a CI/CD project. That means starting with best practices to plan your project in a quarterly or yearly increment and to place ToDos of your project planning on a Kanban Board (For the reviewer: I dispended using a trello board for subscriptional reasons. In our company we are using Teams Kanban Boards and Jira but we are not allowed for sharing them. Please thrust me, that expertise is available to plan a project in resonsible way. I made a screenshot for the excel spreadsheet. Hopefully this is also ok for you and will not affect the reviewers decision to pass or fail.). The top premise for having your code in a testable state could be ensured by setting up a repository in a source control system, that was cloned to a local system and to Azure Cloud shell. Next to testing the code locally CI/CD steps were realized by SaaS build services and configuration files that told a build server what to do, when a trigger event happended.
+In this project the plan was to set up a CI/CD pipeline with Azure Pipelines. The top premise during development process is having your code always in a testable state. Hence an agile project management was setup with using state of the art techniques to implement a CI/CD project. That means starting with best practices to plan your project in a quarterly or yearly increment and to place ToDos of your project planning on a Kanban Board. The top premise for having your code in a testable state could be ensured by setting up a repository in a source control system, that was cloned to a local system and to Azure Cloud shell. Next to testing the code locally CI/CD steps were realized by SaaS build services and configuration files that told a build server what to do, when a trigger event happended.
 
 
 
@@ -9,11 +9,11 @@ In this project the plan was to set up a CI/CD pipeline with Azure Pipelines. Th
 
 * A link to a Trello board for the project
 
- (please see my comment in the overview).
+
 
 * A link to a spreadsheet that includes the original and final project plan>
 
-![spreadsheet](https://user-images.githubusercontent.com/92888738/149537680-86069282-f170-40c5-9416-27d050382cc0.PNG)
+https://docs.google.com/spreadsheets/d/1-_3-LWYUVAqNGMI3vqqHc-ZrG-742vIwFIEWMG5z4Hs/edit?usp=drivesdk
 
 ## Instructions
 
