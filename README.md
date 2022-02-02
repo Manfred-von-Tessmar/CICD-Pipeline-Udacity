@@ -52,9 +52,6 @@ You can see the build status of your build service in Azure pipelines.
 
 ![implement_pipelines_to_azure](https://user-images.githubusercontent.com/92888738/149521983-0c01a940-7820-48e5-814d-cd832dd89096.PNG)
 
-![locust](https://user-images.githubusercontent.com/92888738/152182899-b7944487-bff8-4751-b1bd-9a44fa4445d1.PNG)
-
-
 15. You can see the build status of your build service in Azure pipelines.
 
 ![Azure_pipelines_build](https://user-images.githubusercontent.com/92888738/149522029-1da71e1b-5248-4b85-935c-609b4830f10d.PNG)
@@ -67,6 +64,9 @@ You can see the build status of your build service in Azure pipelines.
 
 ![logs](https://user-images.githubusercontent.com/92888738/149523550-d054599b-955f-4129-95f9-26a1628b846b.PNG)
 
+![locust](https://user-images.githubusercontent.com/92888738/152182899-b7944487-bff8-4751-b1bd-9a44fa4445d1.PNG)
+![locust2](https://user-images.githubusercontent.com/92888738/152183551-2bc66f16-5b3b-49bc-863c-9b9869add375.PNG)
+![locust3](https://user-images.githubusercontent.com/92888738/152183588-63260c63-75b0-4596-9c92-0169a9f4c01b.PNG)
 
 ## Enhancements
 
