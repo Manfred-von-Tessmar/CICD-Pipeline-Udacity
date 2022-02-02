@@ -39,6 +39,7 @@ https://trello.com/b/EAQC8KmM/udacity-cicd-pipeline
 ![github_actions](https://user-images.githubusercontent.com/92888738/149525189-3fabe4e8-bddf-4314-bab2-2a007e3ca8a8.PNG)
 
 ![example workflow](https://github.com/Manfred-von-Tessmar/CICD-Pipeline-Udacity/actions/workflows/python-app.yml/badge.svg)
+(since the python-app.yml was replaced by azure-pipelines.yml, the test is failing, the picture above shows successful runs with python-app.yml build)
 
 11. After performing code testing locally and via Github Actions, it is now the time to set up Continuous Deployment using azure technologies. First of all make sure, that you have the right code base. In this project the project scaffold was replaced by the code of Noah Gift (you can download the code from here: https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/tree/master/C2-AgileDevelopmentwithAzure/project/starter_files.
 
