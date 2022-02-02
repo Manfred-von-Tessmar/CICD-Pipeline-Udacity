@@ -66,7 +66,9 @@ You can see the build status of your build service in Azure pipelines.
 
 ## Enhancements
 
-This project with its content and with the links to microsoft learning sites was a well balanced mixture of theory and practical parts and it led to much increased understanding for the CI/CD topic. I have no idea for enhancements. I Liked the content and how it was provided. Maybe in the final project on enhancement could be to more focus on the understanding for the code (maybe the student can write his own code, or should change the code so that the code is executable or what else). I didn`t like creating a trelloboard or a spreadsheet for the planning since it is a daily business and it needs time (I have a family with two children and I do the nanodegree program after work). So I would recommend omitting the trello board and the spreadsheet. The most understanding how a CI/CD pipeline worked, came from the content and the exercises itself. 
+A short description of how to improve the project in the future:
+
+The project offers a good starting point for further AI projects. My plan for improving the project would be customizing the AI component to own data and to choose the right model for the data. The project can be seen as a framework for another azure-based solution design for AI use cases, like building machine learning life cycles with Azure DataBricks, Azure DevOps or Azure MachineLearning.   
 
 ## Demo 
 
