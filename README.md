@@ -52,6 +52,9 @@ You can see the build status of your build service in Azure pipelines.
 
 ![implement_pipelines_to_azure](https://user-images.githubusercontent.com/92888738/149521983-0c01a940-7820-48e5-814d-cd832dd89096.PNG)
 
+![locust](https://user-images.githubusercontent.com/92888738/152182899-b7944487-bff8-4751-b1bd-9a44fa4445d1.PNG)
+
+
 15. You can see the build status of your build service in Azure pipelines.
 
 ![Azure_pipelines_build](https://user-images.githubusercontent.com/92888738/149522029-1da71e1b-5248-4b85-935c-609b4830f10d.PNG)
