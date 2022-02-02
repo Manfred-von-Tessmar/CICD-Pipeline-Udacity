@@ -5,15 +5,10 @@ In this project the plan was to set up a CI/CD pipeline with Azure Pipelines. Th
 
 
 ## Project Plan
-<TODO: Project Plan
-
-* A link to a Trello board for the project
-
-
-
-* A link to a spreadsheet that includes the original and final project plan>
 
 https://docs.google.com/spreadsheets/d/1-_3-LWYUVAqNGMI3vqqHc-ZrG-742vIwFIEWMG5z4Hs/edit?usp=drivesdk
+https://trello.com/b/EAQC8KmM/udacity-cicd-pipeline
+
 
 ## Instructions
 
