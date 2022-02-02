@@ -36,8 +36,7 @@ https://trello.com/b/EAQC8KmM/udacity-cicd-pipeline
 
 10. If you want to go a step further, you can configure your project so that your project is tested upon change events occur in GitHub. This is a necessary step to perform Continuous Integration remotely. You can use Github actions which is a kind of Software-as-a-Service build server. To tell the server what to do you need a build service template (you can choose a workflow template in Github Actions) and configuration files (e.g. requirements.txt, makefile, test file). In this project this step was done with the project scaffold (testing code). If a build job was successful can be checked in the github actions workflow history. 
 
-![github_actions](https://user-images.githubusercontent.com/92888738/149525189-3fabe4e8-bddf-4314-bab2-2a007e3ca8a8.PNG)
-
+![github_actions2](https://user-images.githubusercontent.com/92888738/152149805-c25e5aae-dc32-4f7f-a32d-5eb5ef30551c.PNG)
 ![example workflow](https://github.com/Manfred-von-Tessmar/CICD-Pipeline-Udacity/actions/workflows/python-app1.yml/badge.svg)
 
 11. After performing code testing locally and via Github Actions, it is now the time to set up Continuous Deployment using azure technologies. First of all make sure, that you have the right code base. In this project the project scaffold was replaced by the code of Noah Gift (you can download the code from here: https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/tree/master/C2-AgileDevelopmentwithAzure/project/starter_files.
